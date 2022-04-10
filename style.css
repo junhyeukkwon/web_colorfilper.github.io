@@ -1,0 +1,37 @@
+/* fount */
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+/* reset.css */
+html, body {
+    margin: 0;
+    font-family: 'Grape Nuts', 'cursive';
+}
+
+/* style.css */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2{
+    color: white;
+    background-color: black;
+    padding: 1rem;
+}
+
+.btn {
+    border: 2px dashed black;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 0.5rem 0.75rem;
+}
